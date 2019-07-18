@@ -1,4 +1,4 @@
-from forms import Form
+from forms import *
 
 class Post(Form):
     pass
@@ -12,3 +12,5 @@ p.charfield(88)
 
 t = Tag
 t.out_print("")
+
+
